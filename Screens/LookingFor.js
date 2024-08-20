@@ -172,7 +172,7 @@ const LookingFor = () => {
           </View>
         </View>
 
-        {lookingFor && (
+        {lookingFor !== '' ? (
           <TouchableOpacity
             onPress={handleNext}
             activeOpacity={0.8}
@@ -185,7 +185,7 @@ const LookingFor = () => {
               style={{ alignSelf: 'center', marginTop: 20 }}
             />
           </TouchableOpacity>
-        )}
+        ) : null}
       </View>
     </SafeAreaView>
   )

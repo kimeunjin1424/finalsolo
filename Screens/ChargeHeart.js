@@ -187,9 +187,8 @@ const ChargeHeart = () => {
                 <AntDesign name="hearto" size={30} color={'gray'} />
                 <Text
                   style={{
-                    fontFamily: 'Se-Hwa',
                     color: 'gray',
-                    fontSize: 30,
+                    fontSize: 20,
                   }}
                 >
                   {' '}
@@ -199,9 +198,8 @@ const ChargeHeart = () => {
               <View>
                 <Text
                   style={{
-                    fontFamily: 'Se-Hwa',
                     color: 'gray',
-                    fontSize: 30,
+                    fontSize: 20,
                   }}
                 >
                   {product.localizedPrice}
